@@ -14,6 +14,7 @@ This is the dotfiles for GIGACHADS
 - Launcher - tofi
 - File manager - lf/dolphin
 - Image viewer - oculante
+- Document viewer - zathura
 - Video player - mpv
 
 ![image](https://github.com/user-attachments/assets/1effbaf1-3585-4884-8189-b72af41dcfe7)
@@ -21,5 +22,6 @@ This is the dotfiles for GIGACHADS
 
 To get you set up, first make sure to install the CachyOS repos: 
 ```
-yay -S --needed snapper-support btrfs-assistant fastfetch steam fcitx5 fcitx5-configtool fcitx5-mozc mpv oculante lf flatpak gamescope mangohud goverlay xdg-desktop-portal-gtk nvidia-settings kitty hyprland waybar hyprlock swww waypaper swaync tofi jq qt6ct-kde xdg-desktop-portal-hyprland grim slurp wl-clipboard archlinux-xdg-menu cachyos-settings cachy-browser && flatpak install net.davidotek.pupgui2 dev.vencord.Vesktop org.keepassxc.KeePassXC org.qbittorrent.qBittorrent org.ryujinx.Ryujinx com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.fooyin.fooyin org.gnome.Boxes io.github.xiaoyifang.goldendict_ng
+yay -S --needed snapper-support btrfs-assistant micro fastfetch steam fcitx5 fcitx5-configtool fcitx5-mozc mpv oculante lf zathura zathura zathura-pdf-poppler flatpak gamescope mangohud goverlay xdg-desktop-portal-gtk nvidia-settings kitty hyprland waybar hyprlock swww waypaper swaync tofi jq qt6ct-kde xdg-desktop-portal-hyprland grim slurp wl-clipboard archlinux-xdg-menu cachyos-settings cachy-browser && flatpak install net.davidotek.pupgui2 dev.vencord.Vesktop org.keepassxc.KeePassXC org.qbittorrent.qBittorrent org.ryujinx.Ryujinx com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.fooyin.fooyin org.gnome.Boxes io.github.xiaoyifang.goldendict_ng
 ```
+You can install Anki from their website, flatpak or from the AUR - your choice.
