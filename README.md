@@ -1,6 +1,6 @@
 # Dotfiles for GIGACHADS
 This is the dotfiles for GIGACHADS
-  https://youtu.be/4KMAlzrtO8w
+> https://youtu.be/4KMAlzrtO8w
 ![image](https://github.com/user-attachments/assets/7d99777d-eef7-430e-8f8c-2c58e79ae259)
 
 
