@@ -1,4 +1,5 @@
 This is the dotfiles for GIGACHADS
+
 ![image](https://github.com/user-attachments/assets/1effbaf1-3585-4884-8189-b72af41dcfe7)
 
 # Programs
