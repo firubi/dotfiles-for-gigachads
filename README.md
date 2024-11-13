@@ -12,7 +12,7 @@ This is the dotfiles for GIGACHADS
 - Terminal - kitty
 - WM - Hyprland
 - Launcher - tofi
-- File manager - lf/dolphin
+- File manager - yazi/dolphin
 - Image viewer - oculante
 - Document viewer - zathura
 - Video player - mpv
