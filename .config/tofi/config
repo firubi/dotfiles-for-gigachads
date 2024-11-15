@@ -1,0 +1,26 @@
+; BEHAVIOR OPTIONS
+text-cursor = true
+terminal = kitty
+history = false
+
+# STYLE OPTIONS
+font-size = 13
+width = 500
+height = 400
+background-color = #000
+outline-width = 0
+outline-color = #080800
+border-width = 2
+border-color = #686868
+prompt-text = "❯ "
+text-cursor-style = underscore
+num-results = 11
+selection-color = #458588
+selection-background = #00000000
+result-spacing = 0
+
+corner-radius = 5
+padding-top = 3%
+padding-bottom = 0
+padding-left = 2%
+padding-right = 0

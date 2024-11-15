@@ -1,0 +1,171 @@
+/* =============================================================================
+ *
+ * Waybar configuration
+ *
+ * Configuration reference: https://github.com/Alexays/Waybar/wiki/Configuration
+ *
+ * =========================================================================== */
+
+/* -----------------------------------------------------------------------------
+ * Keyframes
+ * -------------------------------------------------------------------------- */
+
+@define-color highlight #685878 ;
+@define-color base1  #19191e ;
+
+/* Keyframes for animations remain unchanged */
+
+@keyframes blink-warning {
+    70% {
+        color: white;
+    }
+
+    to {
+        color: white;
+        background-color: orange;
+    }
+}
+
+@keyframes blink-critical {
+    70% {
+        color: white;
+    }
+
+    to {
+        color: white;
+        background-color: red;
+    }
+}
+
+/* -----------------------------------------------------------------------------
+ * Base styles
+ * -------------------------------------------------------------------------- */
+
+/* Reset all styles */
+* {
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    margin: 1px;
+    padding: 0;
+}
+
+/* The whole bar */
+#waybar {
+background: transparent;
+color: #e3e3ea;
+font-family: "JetBrainsMono", "Noto Sans CJK JP";
+font-size: 15px;
+border-radius: 12;
+border: 0px solid #7e7eff;
+background-color: @base1;
+}
+
+/* Every module */
+#mode,
+#network,
+#cpu,
+#memory,
+#pulseaudio,
+#battery,
+#clock,
+#tray {
+padding: 0.5rem 0.6rem;
+margin: 1px 0px;
+background: transparent; /* Make modules transparent */
+}
+
+/* -----------------------------------------------------------------------------
+ * Module styles
+ * -------------------------------------------------------------------------- */
+
+#custom-launcher {
+margin-left: 15px;
+margin-right: 10px;
+}
+
+#workspaces {
+font-size: 15px;
+}
+
+#workspaces button
+{
+    border-bottom: 1px solid #808080;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    padding-left:0px;
+    color: #ffffff;
+}
+
+#workspaces button.active
+{
+    border-bottom: 2px solid  #ffffff;
+    margin-bottom: 3px;
+    padding-left:0;
+
+}
+
+#workspaces button.urgent {
+border-color: #c9545d;
+color: #c9545d;
+}
+
+#mode {
+background: @highlight;
+border-bottom: 3px transparent;
+color: white;
+margin-left: 5px;
+padding: 7px;
+}
+
+#window {
+font-weight: bold;
+}
+
+#network.disconnected {
+color: orange;
+}
+
+#cpu.warning {
+color: orange;
+}
+
+#cpu.critical {
+color: red;
+}
+
+#memory {
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+#memory.warning {
+color: orange;
+}
+
+#memory.critical {
+color: red;
+animation-name: blink-critical;
+animation-duration: 2s;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#pulseaudio {
+}
+
+#pulseaudio.muted {
+color: @highlight;
+}
+
+#custom-power {
+margin-left: 15px;
+margin-right: 15px;
+font-size: 15px;
+}
+#custom-notification {
+margin-left: 0px;
+margin-right: 20px;
+font-size: 15px;
+}
